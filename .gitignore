@@ -141,3 +141,10 @@ dmypy.json
 
 # sphinx config
 #docs/source/conf.py
+
+# My backup files
+*.old
+*.bac
+*.back
+*.backup
+*.default
