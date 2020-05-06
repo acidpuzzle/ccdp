@@ -108,8 +108,6 @@
     :alt: Access Layer
     :align: center
 
-The distribution layer can provide
-
 * Aggregation of LAN or WAN links.
 * Policy-based security in the form of access control lists (ACLs) and filtering.
 * Routing services between LANs and VLANs and between routing domains (e.g., EIGRP to OSPF).
@@ -122,19 +120,12 @@ The distribution layer can provide
 Уровень доступа (*Access Layer*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Уровень доступа - это первый уровень, или край(*edge*), сети кампуса. Это место, где конечные точки (ПК, принтеры, камеры и т.д.) подключаются к проводной или беспроводной части кампусной сети, также место, где подключаются устройства которые расширяют сеть еще на один уровень. К таким устройствам относятся IP телефоны и беспроводные точки доступа (APs)
+Уровень доступа - это первый уровень, или край(*edge*), сети кампуса. Это место, где конечные точки (ПК, принтеры, камеры и т.д.) подключаются к проводной или беспроводной части кампусной сети, также место, где подключаются устройства которые расширяют сеть еще на один уровень. К таким устройствам относятся IP телефоны и беспроводные точки доступа (APs). L2 или L3 коммутаторы.
 
 .. image:: ../_static/access_lauer.png
     :scale: 50 %
     :alt: Access Layer
     :align: center
-
-|
-
-L2 или L3 коммутаторы.
- 
-
-The access layer serves a number of functions, including
 
 * Layer 2 switching
 * High availability

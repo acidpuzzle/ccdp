@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Проектирование корпоративных сетей'
-copyright = '2020, Pavlov Aleksey, Project Support ltd'
+copyright = '2020, Pavlov Aleksey'
 author = 'Pavlov Aleksey'
 
 # The full version, including alpha/beta/rc tags
