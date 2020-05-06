@@ -10,9 +10,9 @@
 
 Должна обеспечивать:
 
-* Отказоустойчивость услуг (*Nonstop high-availability services*)
-* Доступ и мобильность услуг (*Access and mobility services*)
-* Оптимизация и защита приложений (*Application optimization and protection services*)
+* Непрерывность услуг (*Nonstop high-availability services*)
+* Доступность и мобильность услуг (*Access and mobility services*)
+* Оптимизация и защита  (*Application optimization and protection services*)
 * Виртуализацию услуг (*Virtualization services*)
 * Безопасность услуг (*Security services*)
 * Управление услугами (*Operational and management services*)
