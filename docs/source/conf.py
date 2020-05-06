@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Network design'
-copyright = '2020, Pavlov Aleksey'
+project = 'Проектирование корпоративных сетей'
+copyright = '2020, Pavlov Aleksey, Project Support ltd'
 author = 'Pavlov Aleksey'
 
 # The full version, including alpha/beta/rc tags
@@ -66,3 +66,5 @@ html_static_path = ['_static']
 #
 html_show_sourcelink = False
 html_copy_source = False
+
+#
