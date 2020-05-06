@@ -91,17 +91,31 @@
     :alt: Core Layer
     :align: center
 
+* Providing high-speed switching (i.e., fast transport)
+* Providing reliability and fault tolerance
+* Scaling by using faster, and not more, equipment
+* Avoiding CPU-intensive packet manipulation caused by security, inspection, quality of service (QoS) classification, or other processes
 |
 
 
 Уровень распредeления (*Distribution Layer*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Агрегирует данные, полученные от коммутаторов уровня доступа, прежде чем они будут переданы на уровень ядра для маршрутизации до конечного пункта назначения. Уровень распределения очень часто является границей между доменами второго уровня и маршрутизируемой сетью третьего уровня.
+
 .. image:: ../_static/distribution_layer.png
     :scale: 50 %
     :alt: Access Layer
     :align: center
 
+The distribution layer can provide
+
+* Aggregation of LAN or WAN links.
+* Policy-based security in the form of access control lists (ACLs) and filtering.
+* Routing services between LANs and VLANs and between routing domains (e.g., EIGRP to OSPF).
+* Redundancy and load balancing.
+* A boundary for route aggregation and summarization configured on interfaces toward the core layer.
+* Broadcast domain control, because routers or multilayer switches do not forward broadcasts. The device acts as the demarcation point between broadcast domains.* 
 |
 
 
@@ -119,6 +133,17 @@
 
 L2 или L3 коммутаторы.
  
+
+The access layer serves a number of functions, including
+
+* Layer 2 switching
+* High availability
+* Port security
+* QoS classification and marking and trust boundaries
+* Address Resolution Protocol (ARP) inspection
+* Virtual access control lists (VACLs)
+* Spanning tree
+* Power over Ethernet (PoE) and auxiliary VLANs for VoIP
 |
 
 
